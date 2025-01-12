@@ -1,0 +1,25 @@
+/* Header */
+.headerPadd {
+  padding: 0 1rem;
+}
+/* Main */
+.content {
+  min-height: calc(100vh - 64px - 70px);
+  padding: 1.5rem 0;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+/* Footer */
+/* Search */
+.paddingTextRadio {
+  padding: 0 1rem 0 2rem !important;
+}
